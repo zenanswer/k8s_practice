@@ -9,8 +9,14 @@
 ```text
 .
 |-- k8s_infrastructure                 # config files for k8s infrastructure
-|   |-- calico.v3.9.yaml               # [calico](https://www.projectcalico.org/) using it for the k8s DNS and CLUSTER-IP
+|   |-- README_k8s_install.md          # Introduction for how to install k8s (with china mirrors)
+|   |-- README_k8s_init.md             # Init a cluster manager and node join
+|   |-- README_calico.md               # one CNI impl - calico
+|   |-- README_metallb.md              # one metallb impl in local
+|   |-- README_imagePullSecrets.md     # Introduction for how to pull image from private-registry with auth secret
+|   |-- calico.v3.9.yaml               # [calico](https://www.projectcalico.org/) using it for the k8s CNI
 |   |-- cephfs                         # [ceph](https://ceph.io/) [cephfs](https://ceph.io/ceph-storage/file-system/)
+|   |   |-- <HOW TO README>            # TODO
 |   |   |-- ceph-admin-secret.yaml     # admin-secret for mounting cephfs 
 |   |   |-- cephfs-pv-01.yaml          #
 |   |   `-- cephfs-pv-02.yaml          # two PV for the PVC of jhipster-elasticsearch-data and jhipster-elasticsearch-master
