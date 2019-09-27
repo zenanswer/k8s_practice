@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: cephfs-pv-02
+spec:
+  capacity:
+    storage: 2Gi
+  accessModes:
+    - ReadWriteOnce
+  cephfs:
+    monitors:
+      - 10.10.11.57:6789
+      - 10.10.11.58:6789
+      - 10.10.11.59:6789
+    path: /data02
+    user: admin
+    secretRef:
+      name: ceph-admin-secret
+    readOnly: false
+  persistentVolumeReclaimPolicy: Recycle
+

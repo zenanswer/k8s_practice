@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "app1",
+      "app2",
+      "gateway",
+      "uaa"
+    ],
+    "directoryPath": "../",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "ZGVhYTU5MjU3ODk0ZjcwNjhkYzA3MWE3ZDdmNzFlYjQxODlhODQzNDE2MGY3MGM0ZWM5OGQ0OTVhZTE2ZjE4ZmQ4YWU4YzdmMGVmYWRiNjE4NjFhNTQ3M2VhYjBhMTE0NDQyYg==",
+    "dockerRepositoryName": "csmssim01:80/tagjhipster",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "tag",
+    "kubernetesServiceType": "LoadBalancer",
+    "ingressDomain": "",
+    "monitoring": "elk",
+    "istio": false
+  }
+}
