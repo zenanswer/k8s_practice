@@ -16,7 +16,8 @@
 |   |-- README_imagePullSecrets.md     # Introduction for how to pull image from private-registry with auth secret
 |   |-- calico.v3.9.yaml               # [calico](https://www.projectcalico.org/) using it for the k8s CNI
 |   |-- cephfs                         # [ceph](https://ceph.io/) [cephfs](https://ceph.io/ceph-storage/file-system/)
-|   |   |-- <HOW TO README>            # TODO
+|   |   |-- README_cephfs.md           # how to setup a ceph cluster
+|   |   |-- README_ceph_k8s.md	       # create a cephfs and use it in k8s for pod or server
 |   |   |-- ceph-admin-secret.yaml     # admin-secret for mounting cephfs 
 |   |   |-- cephfs-pv-01.yaml          #
 |   |   `-- cephfs-pv-02.yaml          # two PV for the PVC of jhipster-elasticsearch-data and jhipster-elasticsearch-master
