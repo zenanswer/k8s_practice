@@ -1,7 +1,9 @@
 # Deploying a jhipster generated microservices on k8s
 
 <img src="https://kubernetes.io/images/kubernetes-horizontal-color.png" height="32">
-
+<img src="https://www.projectcalico.org/wp-content/uploads/2019/09/Calico_Logo_Large_Calico.png" height="32">
+<img src="https://i2.wp.com/ceph.io/wp-content/uploads/2016/07/Ceph_Logo_Standard_RGB_120411_fa.png?resize=768%2C353&ssl=1" height="32">
+<img src="https://metallb.universe.tf/images/logo.png" height="32">
 <img src="https://avatars1.githubusercontent.com/u/6059488?s=200&v=4" height="32">
 
 # File structure
