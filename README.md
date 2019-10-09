@@ -16,6 +16,8 @@
 |   |-- README_imagePullSecrets.md     # Introduction for how to pull image from private-registry with auth secret
 |   |-- calico.v3.9.yaml               # [calico](https://www.projectcalico.org/) using it for the k8s CNI
 |   |-- cephfs                         # [ceph](https://ceph.io/) [cephfs](https://ceph.io/ceph-storage/file-system/)
+|   |   |-- rbd-csi
+|   |   |   `-- README.md              # how to use k8s CSI driver for ceph RBD
 |   |   |-- README_cephfs.md           # how to setup a ceph cluster
 |   |   |-- README_ceph_k8s.md	       # create a cephfs and use it in k8s for pod or server
 |   |   |-- ceph-admin-secret.yaml     # admin-secret for mounting cephfs 
